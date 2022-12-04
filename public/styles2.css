@@ -1,0 +1,57 @@
+.logo{
+  height: 70px;
+  width:70px;
+}
+.text{
+  text-align: center;
+  padding: 20px 80px 0px;
+  text-shadow: 0 0 4px white;
+  color: white;
+}
+.nav-link,.navbar-brand{
+  text-shadow: 0 0 2px white;
+  font-size: 25px;
+  color: white;
+}
+.content{
+  background-image: url('images/about.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.section{
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.section{
+  position: fixed;
+  left: 0;
+  bottom: 50px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.fa{
+  padding-left: 50px;
+  color: white;
+}
+.navbar-toggler-icon {
+  border: 5px solid white;
+}
+.navbar{
+  background-color: black;
+}

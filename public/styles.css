@@ -1,0 +1,132 @@
+
+.logo{
+  height: 70px;
+  width:70px;
+}
+.content{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content h1{
+  font-size: 160px;
+  font-weight: 600;
+  text-shadow: 0 0 5px #fff;
+}
+.content a{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 14px 70px;
+  margin-top: 20px;
+}
+.data{
+  text-align: center;
+}
+.video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (min-aspect-ratio:16/9){
+  .video{
+    width:100%;
+    height:auto;
+  }
+}
+@media (max-aspect-ratio:16/9){
+  .video{
+    width:auto;
+    height:100%;
+  }
+}
+.nav-link,.navbar-brand{
+  text-shadow: 0 0 5px black;
+  font-size: 25px;
+  color: white;
+}
+.link{
+  text-decoration: none;
+}
+.end{
+  text-align: center;
+}
+.fa{
+  padding:10px 50px 0px;
+  text-align: center;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+}
+.ft{
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+.foot{
+  background-image: url('images/img5.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  color: #fff;
+}
+.section{
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+.team{
+  padding-top: 30px;
+  text-shadow: 0 0 5px white;
+}
+.textPara{
+  margin: 100px;
+}
+.card-body{
+  color: white;
+  background-color: black;
+  margin: 0;
+  text-align: center;
+  opacity: 0.9;
+}
+.card{
+  margin: 30px;
+  border:none;
+}
+.end{
+  margin-bottom: 0rem;
+}
+.fa{
+  color: white;
+}
+.row{
+  border-width:0px;
+}
+.navbar{
+  background-color: black;
+}
+.navbar-toggler-icon {
+  border: 5px solid white;
+}
+.bottomrow{
+  margin-bottom: 200px;
+}
